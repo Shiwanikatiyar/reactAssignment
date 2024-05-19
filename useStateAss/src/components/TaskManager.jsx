@@ -27,7 +27,7 @@ function TaskManager() {
       <button onClick={addTask}>Add Task</button>
       <button
         onClick={() => {
-          /*complete the missing code*/
+          removeTask(tasks)
         }}
       >
         Remove First Task

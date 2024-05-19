@@ -11,7 +11,7 @@ function UsernameInput() {
         type="text"
         value={username}
         onChange={(e) => {
-          /* complete the missing code */
+         setUsername(e.target.value)
         }}
       />
       <p>Username: {username.toLowerCase()}</p>

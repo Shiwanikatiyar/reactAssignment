@@ -9,7 +9,7 @@ function ShowHideText() {
     <div>
       <button
         onClick={() => {
-          /* complete the missing code */
+          setShowText(!showText)
         }}
       >
         Show/Hide Text

@@ -10,8 +10,12 @@ function ProfileUpdater() {
   });
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setProfile({ ...profile, [name]: value });
+    // const { name, value } = e.target;
+    setProfile({ ...profile, [e.target.name]:
+      e.target.type === "number" 
+      ? Number(e.target.value)
+      : e.target.value
+    });
   };
 
   return (
@@ -31,7 +35,7 @@ function ProfileUpdater() {
         onChange={handleInputChange}
       />
       <input
-        type="text"
+        type="number"
         name="phoneNumber"
         placeholder="Phone Number"
         value={profile.phoneNumber}
