@@ -7,6 +7,23 @@ function StopWatch() {
 
   useEffect(() => {
     /*Complete the missing code*/
+    const intervalId = setInterval(() => {
+      setCount((prevCount) => {
+
+        if (prevCount >= 10) {
+          clearInterval(intervalId);
+        }
+        return prevCount + 1;
+      });
+
+    }, 1000);
+
+
+    function cleanupFunction() {
+      clearInterval(intervalId);
+    }
+
+    return cleanupFunction;
   }, []);
 
   return (
