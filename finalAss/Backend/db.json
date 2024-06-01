@@ -1,0 +1,92 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Navbar Feature - Logout",
+      "description": "Build a logout button within navbar",
+      "assignee": "Rahul",
+      "status": "pending",
+      "priority": 0
+    },
+    {
+      "title": "Profile Page - Avatar Upload",
+      "description": "Enable users to upload an avatar on their profile page",
+      "assignee": "Sunita",
+      "status": "complete",
+      "priority": 6,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Dashboard - Activity Feed",
+      "description": "Implement an activity feed showing recent user actions",
+      "assignee": "Amit",
+      "status": "progress",
+      "priority": 9
+    },
+    {
+      "id": "4",
+      "title": "Settings Page - Email Preferences",
+      "description": "Add options for users to manage their email preferences",
+      "assignee": "Anjali",
+      "status": "pending",
+      "priority": 1
+    },
+    {
+      "id": "5",
+      "title": "Login Page - Forgot Password",
+      "description": "Create a 'Forgot Password' feature for user login",
+      "assignee": "Amit",
+      "status": "complete",
+      "priority": 4
+    },
+    {
+      "id": "6",
+      "title": "Notification System",
+      "description": "Build a system to send notifications to users",
+      "assignee": "Vikram",
+      "status": "progress",
+      "priority": 2
+    },
+    {
+      "id": "7",
+      "title": "Search Functionality",
+      "description": "Implement search functionality across the website",
+      "assignee": "Vikram",
+      "status": "pending",
+      "priority": 3
+    },
+    {
+      "id": "8",
+      "title": "User Registration - Captcha",
+      "description": "Add a captcha to the user registration form",
+      "assignee": "Sunita",
+      "status": "complete",
+      "priority": 5
+    },
+    {
+      "id": "9",
+      "title": "Blog Post - Comment Section",
+      "description": "Enable users to comment on blog posts",
+      "assignee": "Sunita",
+      "status": "progress",
+      "priority": 7
+    },
+    {
+      "id": "10",
+      "title": "Admin Panel - User Management",
+      "description": "Create an admin panel for managing users",
+      "assignee": "Karan",
+      "status": "pending",
+      "priority": 8
+    },
+    {
+      "id": "c62b",
+      "title": "Create Footer logo ",
+      "description": "create company logo on footer",
+      "assignee": "Vikram",
+      "status": "progress",
+      "priority": "8"
+    }
+  ]
+}
